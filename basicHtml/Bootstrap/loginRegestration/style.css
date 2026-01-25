@@ -1,0 +1,29 @@
+/* Login Button Style */
+#LoginNow {
+  background-color: #aa1616; /* Blue */
+  color: #d93838;
+  border-radius: 6px;
+  border: black;
+  transition: 0.3s ease; /* Smooth hover */
+}
+
+#LoginNow:hover {
+  background-color: #431aa3 !important; /* Hover par thoda dark blue */
+  color: #29d61d !important;
+}
+
+/* Register Button Style */
+#RegisterNow {
+  background-color: #198754; /* Green */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+#RegisterNow:hover {
+  background-color: #431aa3 !important; /* Hover par thoda dark blue */
+  color: #29d61d !important;
+  transform: translateY(-3px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}

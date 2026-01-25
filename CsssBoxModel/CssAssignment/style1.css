@@ -1,0 +1,80 @@
+body {
+  background-color: #2e6bff;
+  display: flex;
+  justify-content: center;
+}
+
+
+#mainBox {
+  background: #fff;
+  padding: 40px 40px;
+  border-radius: 20px;
+  box-shadow: 1 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#formHeading {
+  font-size: 22px;
+  color: #333;
+}
+
+
+.formFeild  {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+}
+
+.formFeild input {
+  width: 100%;
+  padding: 10px 35px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+
+#Signup {
+    background-color: #1f09c6;
+}
+#formControl {
+  text-align: center;
+  button {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+  }
+}
+
+#loginButton,
+#registerButton {
+  width: 100%;
+  background: #2e6bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+#loginButton:hover,
+#registerButton:hover {
+  background: #1d50d1;
+}
+
+#forgotButton {
+  
+  background-color: #290ff0;
+  color: rgb(44, 155, 252);
+}
+
+
+#forgotButton:hover {
+  color: #f74c4c;
+  background-color: rgb(19, 131, 229);
+}

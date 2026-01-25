@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  background-color: blue;
+  color: aliceblue;
+  padding: 5px 0;
+  text-align: center;
+}
+#mainDiv {
+  background-color: aqua;
+  border: 2px solid black;
+  width: max-content;
+  margin: 5px 0;
+  padding: 10px;
+}
+.featureItems {
+  margin: 25px;
+
+  display: grid;
+  grid-template-columns: 150px, 250px;
+}
+input {
+  padding: 5px;
+}
+.fromAction {
+  text-align: center;
+
+  padding: ;
+}
+.fromAction button {
+  margin: 15px;
+  padding: 7px, 15px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+#clearButton {
+  background-color: rgb(32, 161, 58);
+  border-color: darkgoldenrod;
+}
+#clearButton:hover {
+  background-color: green;
+  border: 5px;
+}

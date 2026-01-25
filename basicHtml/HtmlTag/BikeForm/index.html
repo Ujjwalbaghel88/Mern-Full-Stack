@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <div id="header">
+      <h1>Bike Price Predicition</h1>
+    </div>
+ 
+  <div id="mainDiv">
+    <div class="featureItmes">
+      <label for="bikeage">BikeAge</label>
+      <input type="number" name="bikeAge" id="bikeAge" />
+    </div>
+    
+    <div class="featureItmes" id="featureItmes">
+      <label for="city">City</label>
+      <select name="city" id="city">
+        <option value="">--select--city--</option>
+        <option value="bhopal">Bhopal</option>
+        <option value="indore">Indore</option>
+        <option value="jaipur">Jaipur</option>
+      </select>
+    </div>
+    <div class="featureItmes">
+      <label for="owner">Ownership</label>
+      <select name="owner" id="owner">
+        <option value="">--Select--Ownership</option>
+        <option value="firsr Owner">First owner</option>
+        <option value="second Owner">Second Owner</option>
+        <option value="third Owner">Third Owner</option>
+        <option value="fourth Owner & More">Fourth Owner</option>
+      </select>
+    </div>
+
+    <div class="featureItmes">
+      <label for="originalPrice">Original Price</label>
+      <input type="number" name="originalPrice" id="originalPrice" />
+    </div>
+    <div class="featureItmes">
+      <label for="kms_driven"> kms_Driven</label>
+      <input type="number" name="kms_driven" id="kms_driven" />
+    </div>
+
+    <div class="featureItmes">
+  <label for="power">Power (CC)</label>
+  <input type="number" id="power" name="power" />
+</div>
+
+<div class="featureItmes">
+  <label for="brand">Brand</label>
+  <input type="text" id="brand" name="brand" />
+</div>
+
+    <div class="fromAction">
+        <button id="clearButton" onclick="clearForm()">Clear form</button>
+        <button id="predictButton" onclick="predict()">Predict Price</button>
+      </div>
+    
+
+      <div id="PredictedPrice">
+        <label for="predictedPrice">PredictedPrice</label>
+        <div id="price">$CCC</div>
+      </div>
+
+
+      <script src="script.js"></script>
+  </div>
+</html>

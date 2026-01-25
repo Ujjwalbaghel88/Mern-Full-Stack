@@ -1,0 +1,63 @@
+
+h1 {
+
+  font-size: 3.8rem; 
+   font-weight:900;
+
+   /* text properities start here  */
+   text-align: center;
+   text-decoration-line:underline;
+
+  text-decoration-color: rgb(11, 179, 139);
+
+   text-transform:capitalize;
+   text-decoration-thickness:12px;
+   text-decoration-style:wavy;
+    text-shadow: 10px 10px 4px rgb(0,255,0);
+
+}
+
+  
+p {
+
+  font-size: 3.6rem; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight:900;
+  font-style: italic;
+   font-variant:small-caps ;
+   letter-spacing: 1.2px;
+   word-spacing: 1px;
+   line-height: 1.2;
+   text-shadow: 2px 2px 5px red;
+   
+  
+}
+
+p::first-letter{
+
+  font-size:98px ;
+  font-weight: 800;
+}
+
+.section-border{
+  width: 1000px;
+  color:#fff;
+  background-color: #5e9de9;;
+
+  /* border-here */
+  border: 10px solid red;
+  /* write each property individual; */
+  /* border-width: 15px;
+  border-style: solid;
+    border-color: #003180 */
+
+
+   /* we can write them individually too  */ 
+ 
+      
+    border-top:15px;
+
+
+}
+
+ 

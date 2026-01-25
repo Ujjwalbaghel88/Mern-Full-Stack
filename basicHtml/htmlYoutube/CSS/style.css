@@ -1,0 +1,14 @@
+*{
+    color: black;
+    background-color: burlywood
+}
+body{
+   background-color: rgb(59, 157, 71);
+}
+button{
+    color: black;
+    background-color: #f00fff;
+}
+#heading1{
+    color: chartreuse;
+}
